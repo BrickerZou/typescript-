@@ -1,6 +1,6 @@
 const path=require("path");
 module.exports={
-    entry:"./src/index.ts",
+    entry:["./src/index.ts","./src/index2.ts"],
     output:{
         path:path.resolve(__dirname,'dist'),
         filename:"bundle.js"

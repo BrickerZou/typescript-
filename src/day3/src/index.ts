@@ -36,10 +36,18 @@ interface myInterface{
     name:string
 }
 interface myInterface{
-    age:number
+    age?:number
 }
 // interface可叠加
 const interf:myInterface={
     name:"zcm",
     age:20
 }
+class Test implements myInterface{
+   name:string;
+   constructor(name:string){
+    this.name=name;
+   }
+}
+
+// 接口里全是抽象方法，抽象类可有普通方法
