@@ -39,7 +39,7 @@ interface myInterface{
     age:number
 }
 // interface可叠加
-const obj:myInterface={
+const interf:myInterface={
     name:"zcm",
     age:20
 }
